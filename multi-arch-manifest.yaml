@@ -1,0 +1,21 @@
+image: robinthoni/test-hub-multiarch:develop
+manifests:
+  - image: robinthoni/test-hub-multiarch:develop-amd64
+    platform:
+      architecture: amd64
+      os: linux
+#  - image: robinthoni/test-hub-multiarch:develop-armv5
+#    platform:
+#      architecture: arm
+#      os: linux
+#      variant: v5
+  - image: robinthoni/test-hub-multiarch:develop-armv7
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
+#  - image: robinthoni/test-hub-multiarch:develop-armv8
+#    platform:
+#      architecture: arm64
+#      os: linux
+#      variant: v8
