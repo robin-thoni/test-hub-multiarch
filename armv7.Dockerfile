@@ -1,4 +1,4 @@
-FROM nginx:1.19.2
+FROM arm32v7/nginx:1.19.2
 
 RUN echo "Working armv7" > /usr/share/nginx/html/index.html
 
